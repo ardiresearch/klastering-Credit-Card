@@ -1,0 +1,252 @@
+{
+  "k": 3,
+  "silhouette": 0.2377,
+  "davies_bouldin": 1.456,
+  "ari_rata_rata": 0.995,
+  "jumlah_baris": 8950,
+  "jumlah_anggota": {
+    "0": 2044,
+    "1": 4611,
+    "2": 2295
+  },
+  "asal_keputusan": "Bagian 5 kelompok",
+  "himpunan_fitur": "A",
+  "versi_sklearn": "1.6.1",
+  "nama_segmen": {
+    "0": "PURCHASES tinggi, PURCHASES_TRX tinggi",
+    "1": "BALANCE rendah, PAYMENTS rendah",
+    "2": "CASH_ADVANCE_TRX tinggi, CASH_ADVANCE tinggi"
+  },
+  "profil_relatif": {
+    "0": {
+      "BALANCE": 0.21,
+      "BALANCE_FREQUENCY": 0.43,
+      "PURCHASES": 1.53,
+      "ONEOFF_PURCHASES": 1.26,
+      "INSTALLMENTS_PURCHASES": 1.13,
+      "CASH_ADVANCE": -0.28,
+      "PURCHASES_FREQUENCY": 1.04,
+      "ONEOFF_PURCHASES_FREQUENCY": 1.19,
+      "PURCHASES_INSTALLMENTS_FREQUENCY": 0.83,
+      "CASH_ADVANCE_FREQUENCY": -0.32,
+      "CASH_ADVANCE_TRX": -0.3,
+      "PURCHASES_TRX": 1.44,
+      "CREDIT_LIMIT": 0.59,
+      "PAYMENTS": 0.81,
+      "MINIMUM_PAYMENTS": 0.18,
+      "PRC_FULL_PAYMENT": 0.3,
+      "TENURE": NaN
+    },
+    "1": {
+      "BALANCE": -0.54,
+      "BALANCE_FREQUENCY": -0.33,
+      "PURCHASES": -0.39,
+      "ONEOFF_PURCHASES": -0.35,
+      "INSTALLMENTS_PURCHASES": -0.23,
+      "CASH_ADVANCE": -0.5,
+      "PURCHASES_FREQUENCY": -0.08,
+      "ONEOFF_PURCHASES_FREQUENCY": -0.32,
+      "PURCHASES_INSTALLMENTS_FREQUENCY": -0.05,
+      "CASH_ADVANCE_FREQUENCY": -0.48,
+      "CASH_ADVANCE_TRX": -0.5,
+      "PURCHASES_TRX": -0.33,
+      "CREDIT_LIMIT": -0.41,
+      "PAYMENTS": -0.51,
+      "MINIMUM_PAYMENTS": -0.44,
+      "PRC_FULL_PAYMENT": 0.08,
+      "TENURE": NaN
+    },
+    "2": {
+      "BALANCE": 0.89,
+      "BALANCE_FREQUENCY": 0.27,
+      "PURCHASES": -0.57,
+      "ONEOFF_PURCHASES": -0.42,
+      "INSTALLMENTS_PURCHASES": -0.55,
+      "CASH_ADVANCE": 1.25,
+      "PURCHASES_FREQUENCY": -0.76,
+      "ONEOFF_PURCHASES_FREQUENCY": -0.42,
+      "PURCHASES_INSTALLMENTS_FREQUENCY": -0.64,
+      "CASH_ADVANCE_FREQUENCY": 1.25,
+      "CASH_ADVANCE_TRX": 1.27,
+      "PURCHASES_TRX": -0.62,
+      "CREDIT_LIMIT": 0.29,
+      "PAYMENTS": 0.31,
+      "MINIMUM_PAYMENTS": 0.73,
+      "PRC_FULL_PAYMENT": -0.43,
+      "TENURE": NaN
+    }
+  },
+  "masukan": [
+    {
+      "kolom": "BALANCE",
+      "label": "Saldo rata-rata",
+      "satuan": "USD",
+      "min": 0.0,
+      "maks": 4942.9272155,
+      "awal": 873.385231,
+      "rata": 1390.50897320743,
+      "sd": 1537.538478890325
+    },
+    {
+      "kolom": "BALANCE_FREQUENCY",
+      "label": "Keseringan saldo diperbarui",
+      "satuan": "skala 0-1",
+      "min": 0.7222225000000001,
+      "maks": 1.0,
+      "awal": 1.0,
+      "rata": 0.9315869813966482,
+      "sd": 0.11098353192864797
+    },
+    {
+      "kolom": "PURCHASES",
+      "label": "Total pembelian",
+      "satuan": "USD",
+      "min": 0.0,
+      "maks": 2715.8725000000004,
+      "awal": 361.28,
+      "rata": 737.1493296089385,
+      "sd": 879.5347883301436
+    },
+    {
+      "kolom": "ONEOFF_PURCHASES",
+      "label": "Pembelian sekali bayar",
+      "satuan": "USD",
+      "min": 0.0,
+      "maks": 1443.5124999999998,
+      "awal": 38.0,
+      "rata": 354.3581388268156,
+      "sd": 511.8232885903192
+    },
+    {
+      "kolom": "INSTALLMENTS_PURCHASES",
+      "label": "Pembelian cicilan",
+      "satuan": "USD",
+      "min": 0.0,
+      "maks": 1171.59375,
+      "awal": 89.0,
+      "rata": 295.54621354748605,
+      "sd": 396.18154612356113
+    },
+    {
+      "kolom": "CASH_ADVANCE",
+      "label": "Penarikan tunai",
+      "satuan": "USD",
+      "min": 0.0,
+      "maks": 2784.5528481250003,
+      "awal": 0.0,
+      "rata": 672.4689243939386,
+      "sd": 998.5149695590704
+    },
+    {
+      "kolom": "PURCHASES_FREQUENCY",
+      "label": "Keseringan berbelanja",
+      "satuan": "skala 0-1",
+      "min": 0.0,
+      "maks": 1.0,
+      "awal": 0.5,
+      "rata": 0.49035054837988834,
+      "sd": 0.40137074736905376
+    },
+    {
+      "kolom": "ONEOFF_PURCHASES_FREQUENCY",
+      "label": "Keseringan belanja sekali bayar",
+      "satuan": "skala 0-1",
+      "min": 0.0,
+      "maks": 0.75,
+      "awal": 0.083333,
+      "rata": 0.18477328826815645,
+      "sd": 0.25566782932373794
+    },
+    {
+      "kolom": "PURCHASES_INSTALLMENTS_FREQUENCY",
+      "label": "Keseringan belanja cicilan",
+      "satuan": "skala 0-1",
+      "min": 0.0,
+      "maks": 1.0,
+      "awal": 0.166667,
+      "rata": 0.3644373415642458,
+      "sd": 0.39744777974542483
+    },
+    {
+      "kolom": "CASH_ADVANCE_FREQUENCY",
+      "label": "Keseringan menarik tunai",
+      "satuan": "skala 0-1",
+      "min": 0.0,
+      "maks": 0.555555,
+      "awal": 0.0,
+      "rata": 0.12606119441340782,
+      "sd": 0.17267643465484717
+    },
+    {
+      "kolom": "CASH_ADVANCE_TRX",
+      "label": "Jumlah transaksi tarik tunai",
+      "satuan": "kali",
+      "min": 0.0,
+      "maks": 10.0,
+      "awal": 0.0,
+      "rata": 2.383128491620112,
+      "sd": 3.4178783038494944
+    },
+    {
+      "kolom": "PURCHASES_TRX",
+      "label": "Jumlah transaksi belanja",
+      "satuan": "kali",
+      "min": 0.0,
+      "maks": 41.0,
+      "awal": 7.0,
+      "rata": 11.623798882681564,
+      "sd": 13.04164543613978
+    },
+    {
+      "kolom": "CREDIT_LIMIT",
+      "label": "Limit kartu",
+      "satuan": "USD",
+      "min": 50.0,
+      "maks": 13850.0,
+      "awal": 3000.0,
+      "rata": 4419.137221375754,
+      "sd": 3383.7886451184017
+    },
+    {
+      "kolom": "PAYMENTS",
+      "label": "Total pembayaran",
+      "satuan": "USD",
+      "min": 0.0,
+      "maks": 4177.921542875,
+      "awal": 856.901546,
+      "rata": 1347.084164938324,
+      "sd": 1272.8062718222088
+    },
+    {
+      "kolom": "MINIMUM_PAYMENTS",
+      "label": "Pembayaran minimum",
+      "satuan": "USD",
+      "min": 0.019163,
+      "maks": 1715.4972705,
+      "awal": 312.343947,
+      "rata": 556.7523849262011,
+      "sd": 532.1741803907244
+    },
+    {
+      "kolom": "PRC_FULL_PAYMENT",
+      "label": "Proporsi pelunasan penuh",
+      "satuan": "skala 0-1",
+      "min": 0.0,
+      "maks": 0.3571425,
+      "awal": 0.0,
+      "rata": 0.08722298815642457,
+      "sd": 0.13861591831601017
+    },
+    {
+      "kolom": "TENURE",
+      "label": "Lama berlangganan",
+      "satuan": "bulan",
+      "min": 12.0,
+      "maks": 12.0,
+      "awal": 12.0,
+      "rata": 12.0,
+      "sd": 0.0
+    }
+  ],
+  "keterbatasan": "Model ini dibuat untuk latihan metode klastering, bukan untuk keputusan nyata. Keluarannya adalah nomor segmen berdasarkan kemiripan pola, bukan prediksi, bukan skor, dan bukan penilaian kelayakan."
+}
